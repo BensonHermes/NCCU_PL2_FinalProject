@@ -46,6 +46,11 @@ public class Lecture {
 	}
 
 	public String getLectureClassRoom() {
+	//修改
+		if (lectureClassRoom.equals(""))
+		{
+			return "NA";
+		}
 		return lectureClassRoom;
 	}
 
